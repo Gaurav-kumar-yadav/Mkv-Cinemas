@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: arial;
+}
+.nav-header {
+  
+  height: 70px;
+
+  background-color: #232323;
+}
+.nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 70px;
+  color: #dddddd;
+  font-size: 1.3rem;
+}
+.nav-logo {
+  height: 41px;
+  width: 100px;
+  background-size: cover;
+}
+.search-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  height: 34px;
+  background-color: #444444;
+  
+  
+  margin-left: 6rem;
+}
+.hover-box:hover{
+  color: darkmagenta;
+}
+.search-icon {
+
+ color: pink;
+  
+}
+.nav-search-button{
+  background-color: #444444;
+  border: none;
+  font-size: 1.2rem;
+ color: white;
+}
+.mkv-Anime-button{
+  height: 90px;
+  background-color: #232323;
+}
+.mkv-Anime-button{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.mkv-Anime-content{
+ margin-top: 20px;
+ margin-bottom: 20px;
+  height: 50px;
+  width: 120px;
+  background-color: #D03FB0;
+  color: #ffffff;
+  font-size: 1.2rem;
+  border-radius: 5px;
+ 
+}
+.mkv-Anime-content:hover{
+  background-color: darkmagenta;
+  
+}
+.header-join-pannel{
+  background-color:black ;
+  height: 70px;
+}
+.header-join{
+  height: 55px;
+  background-color: #303030;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8em;
+  margin-right: 8em;
+ 
+  border-radius: 4px;
+ 
+
+}
+.header-join-content{
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+.suggestion-button{
+  height: 90px;
+  background-color: black;
+}
+.suggestion-content{
+  display: flex;
+ 
+  
+  padding-top: 2rem;
+  margin-left: 8em;
+  margin-right: 8em;
+  
+}
+.sugg-button{
+  
+  width: 170px;
+  height: 40px;
+  color: #ffffff;
+  background-color: #E45CC0;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+.box{
+  margin-left: 1.5rem;
+  height:50px ;
+  width: 90px;
+  color: #dddddd;
+
+  font-size: 1.1rem;
+  border: 1px solid transparent;
+}
+.box:hover{
+  background-color: #444444;
+}
+#suggestion-most-favourite{
+  height:50px ;
+  width: 120px;
+}
+.empty-suggestion{
+  height: 50px;
+  width: 40%;
+  margin-left: 5rem;
+  
+}
+.suggestion-view-more{
+  height: 50px;
+  width: 100px;
+  color: #E45CC0;
+  margin-left: 12rem;
+  font-size: 0.85rem;
+}
+.hero-section{
+  background-color: #303030;
+}
+.hero-section-margin{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 1.2rem;
+  margin-left: 8em;
+  margin-right: 8em;
+}
+.hero-section-content{
+  height: 260px;
+  width: 11%;
+  border-radius: 5px;
+  margin: 0.4rem;
+  background-size: cover;
+}
+.hero-section-content h3{
+ margin-top: 10rem;
+  margin-left: 0.4rem;
+  height: 25%;
+  width: 90%;
+  color:#ffffff;
+ overflow: hidden;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 12px;
+  
+}
+.wiprip-button{
+  
+  border-radius: 5px ;
+  background-color:#FED700 ;
+  color: #222222;
+}
+.hero-section-content:hover{
+  border: 4px solid #D03FB0;
+}
+/* .manage-padding{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-top: 1.3rem;
+}
+.latest-movies{
+  height: 40px;
+  width: 308px;
+  background-color: #E45CC0;
+  color: #ffffff;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  
+} */
+.footer-pannel{
+  background-color: #444444;
+  display: flex;
+  
+}
+.footer-content{
+  
+  color: #cccccc;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  line-height: 1.3rem;
+  font-size: 1rem;
+}
+.footer-content h2{
+  color:#ffffff ;
+}
+.footer-information:hover{
+  color: #D03FB0;
+}
+
+.footer-disclaimer{
+  margin-left: 18rem;
+  color: #cccccc;
+}
+
+.footer-disclaimer-info{
+  color: #232323;
+}
+.footer-last-part{
+  background-color: #444444;
+}
+.footer-botton-mkv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8rem;
+  margin-right: 8rem;
+ 
+}
+.ft-button button{
+  border-radius: 9px;
+  margin: 2rem;
+  height: 32px;
+  width: 100px;
+  text-align: center;
+  color: #cccccc;
+  background-color: #444444;
+}
+.ft-button button:hover{
+  color: #D03FB0;
+}
